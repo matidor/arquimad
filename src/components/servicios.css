@@ -1,0 +1,83 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  #servicios {
+    height: 100%;
+  }
+  
+  .services-section {
+    height: 100%;
+    padding: 50px;
+    background-color: #f2f2f2;
+  }
+  
+  .services-section h2 {
+    font-family: 'NewPanamSkyline', sans-serif;
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  .services-section p {
+    text-align: center;
+    font-family: 'NewPanamSkyline', sans-serif;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .custom-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .custom-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    width: 15cm;
+    height: 15cm;
+  }
+  
+  .custom-card-content {
+    text-align: center;
+  }
+  
+  .custom-card-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .bottom-text {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .bottom-text-services {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .custom-section-image {
+    width: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .custom-section-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+ 
