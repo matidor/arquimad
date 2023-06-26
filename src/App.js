@@ -8,7 +8,7 @@ import '../src/components/nosotros.css';
 import '../src/components/servicios.css';
 import '../src/components/whatsapp.css';
 
-import ContactSection from './components/contactSection'; 
+import ContactSection from './components/contactSection';
 
 
 const App = () => {
@@ -38,21 +38,21 @@ const App = () => {
       </div>
 
       <div id="nosotros" className="nosotros-section">
-  <h2>NOSOTROS</h2>
-  <div className="image-container">
-    <img src={require('../src/components/img10x15.svg').default} alt="imagen nosotros" />
-  </div>
-  <div className="text-container">
-    <p className="centered-text">
-      Nuestro enfoque se centra en la calidad, la innovación y la atención al cliente.<br /> Nos aseguramos de que nuestros clientes estén involucrados en todo el proceso de diseño y construcción,<br /> desde la planificación hasta la finalización del proyecto. <br />
-      Ofrecemos una amplia gama de servicios que incluyen el diseño arquitectónico,<br /> la construcción de viviendas y edificios comerciales, <br />la remodelación y renovación de estructuras existentes, y mucho más.<br />
-      Si estás interesado en trabajar con nosotros, no dudes en ponerte en contacto.<br /> Estaremos encantados de discutir tus proyectos y ofrecerte una solución personalizada y asequible.<br /> ¡Contáctanos ahora y comencemos a trabajar en tu proyecto!
-    </p>
-  </div>
-  <div className="bottom-text">
-    <p>"Nos gusta definirnos como estudio de arquitectura creativo, <br />enfocándonos en la innovación en el diseño y la arquitectura, <br />mediante soluciones resolutivas y alcanzables."</p>
-  </div>
-</div>
+        <h2>NOSOTROS</h2>
+        <div className="image-container">
+          <img src={require('../src/components/img10x15.svg').default} alt="imagen nosotros" />
+        </div>
+        <div className="text-container">
+          <p className="centered-text">
+            Nuestro enfoque se centra en la calidad, la innovación y la atención al cliente.<br /> Nos aseguramos de que nuestros clientes estén involucrados en todo el proceso de diseño y construcción,<br /> desde la planificación hasta la finalización del proyecto. <br />
+            Ofrecemos una amplia gama de servicios que incluyen el diseño arquitectónico,<br /> la construcción de viviendas y edificios comerciales, <br />la remodelación y renovación de estructuras existentes, y mucho más.<br />
+            Si estás interesado en trabajar con nosotros, no dudes en ponerte en contacto.<br /> Estaremos encantados de discutir tus proyectos y ofrecerte una solución personalizada y asequible.<br /> ¡Contáctanos ahora y comencemos a trabajar en tu proyecto!
+          </p>
+        </div>
+        <div className="bottom-text">
+          <p>"Nos gusta definirnos como estudio de arquitectura creativo, <br />enfocándonos en la innovación en el diseño y la arquitectura, <br />mediante soluciones resolutivas y alcanzables."</p>
+        </div>
+      </div>
       <hr className="separator-line" />
 
       <div id="servicios" className="services-section">
@@ -124,48 +124,46 @@ const App = () => {
           <div className="custom-card">
             <div className="custom-card-content">
               <h2>Construcción de estructuras de Steel Framing.</h2>
-              <p>El Steel Frame es un sistema único en el mercado, tanto por sus altas prestaciones autoportantes como por su grado de industralización, su rapidez de montaje en obra y sus alto estándar de calidad.</p>
-              <h3>Características principales:</h3>
-    <p>
-      +Resistencia: los paneles de acero utilizados en las construcciones son altamente resistentes a los impactos y a las inclemencias del tiempo.<br/>
-      +Durabilidad: desde los perfiles de acero galvanizado utilizados para armar la estructura hasta las placas y materiales que se emplean como terminación, todos poseen una larga durabilidad que les permite mantenerse intactos durante décadas.<br/>
-      +Flexibilidad arquitectónica: se adapta a cualquier tipo de proyecto, con practicidad y limpieza para remodelaciones, ampliaciones y refacciones. Además, implica un menor tiempo de ejecución.<br/>
-      +Sustentable: se reduce el desperdicio de materiales y el consumo de agua.
-    </p>
-              
-          </div>
-        </div>
-        <div className="custom-section-image">
-          <img src={require('../src/components/servicios4steel.svg').default} alt="Imagen" />
-        </div>
-      </div>
+              <p>El Steel Frame es un sistema único en el mercado, tanto por sus altas prestaciones autoportantes como por su grado de industralización, su rapidez de montaje en obra y sus alto estándar de calidad.</p><p>
+                +Resistencia: los paneles de acero utilizados en las construcciones son altamente resistentes a los impactos y a las inclemencias del tiempo.<br />
+                +Durabilidad: desde los perfiles de acero galvanizado utilizados para armar la estructura hasta las placas y materiales que se emplean como terminación, todos poseen una larga durabilidad que les permite mantenerse intactos durante décadas.<br />
+                +Flexibilidad arquitectónica: se adapta a cualquier tipo de proyecto, con practicidad y limpieza para remodelaciones, ampliaciones y refacciones. Además, implica un menor tiempo de ejecución.<br />
+                +Sustentable: se reduce el desperdicio de materiales y el consumo de agua.
+              </p>
 
-      <div className="custom-section custom-section5 custom-section-reverse ">
-        <div className="custom-section-image">
-          <img src={require('../src/components/servicios6.svg').default} alt="Imagen" />
-        </div>
-        <div className="custom-card">
-          <div className="custom-card-content">
-            <h3>Servicio de Diseño de Interiores</h3>
-            <p>Ofrecemos servicios de diseño de interiores que transforman los espacios en entornos funcionales, estéticos y armoniosos. Nuestro equipo de diseñadores trabaja estrechamente con los clientes para comprender sus necesidades y preferencias, y luego crea diseños personalizados que reflejan su estilo y personalidad.</p>
+            </div>
+          </div>
+          <div className="custom-section-image">
+            <img src={require('../src/components/servicios4steel.svg').default} alt="Imagen" />
           </div>
         </div>
 
+        <div className="custom-section custom-section5 custom-section-reverse ">
+          <div className="custom-section-image">
+            <img src={require('../src/components/servicios6.svg').default} alt="Imagen" />
+          </div>
+          <div className="custom-card">
+            <div className="custom-card-content">
+              <h3>Servicio de Diseño de Interiores</h3>
+              <p>Ofrecemos servicios de diseño de interiores que transforman los espacios en entornos funcionales, estéticos y armoniosos. Nuestro equipo de diseñadores trabaja estrechamente con los clientes para comprender sus necesidades y preferencias, y luego crea diseños personalizados que reflejan su estilo y personalidad.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <ContactSection /> {/* Agrega la sección de contacto aquí */}
+
+        {/* Botón de WhatsApp */}
+        <a
+          href="https://wa.me/2254616834"
+          className="whatsapp-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaWhatsapp className="whatsapp-icon" />
+          <span className="whatsapp-text">¿Cómo podemos ayudarte?</span>
+        </a>
       </div>
-
-      <ContactSection /> {/* Agrega la sección de contacto aquí */}
-
-      {/* Botón de WhatsApp */}
-      <a
-        href="https://wa.me/2254616834"
-        className="whatsapp-button"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FaWhatsapp className="whatsapp-icon" />
-        <span className="whatsapp-text">¿Cómo podemos ayudarte?</span>
-      </a>
-    </div>
     </div >
   );
 };

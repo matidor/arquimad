@@ -95,7 +95,19 @@
   }
   
   
-  
-  
+ /* Media queries */
+@media screen and (max-width: 768px) {
+  .whatsapp-button {
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+  }
+
+  .whatsapp-button svg {
+    width: 28px;
+    height: 28px;
+  }
+}
+
   
   
