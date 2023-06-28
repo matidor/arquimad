@@ -7,8 +7,8 @@ import { FaArrowRight } from 'react-icons/fa';
 import '../src/components/nosotros.css';
 import '../src/components/servicios.css';
 import '../src/components/whatsapp.css';
-
 import ContactSection from './components/contactSection';
+import Footer from './components/Footers';
 
 
 const App = () => {
@@ -107,13 +107,9 @@ const App = () => {
             <div className="custom-card-content">
               <h2>Servicios a empresas</h2>
               <p>Gas Instalación de cañerías, cambio de regulador de presión, detección de perdidas con instrumental (scanners, explosímetro) por profesional altamente capacitado (gasista matriculado), instalación y reparación de estufas, cocinas, calefónes termotanques y calderas.
-
                 Electricidad Detección de fallas, tableros eléctricos, reparación e instalación de luminarias, tomas corrientes, cableado y recableado, etc.
-
                 Piscinas Realización y diseño de piscinas adaptadas y personalizadas.
-
                 Pintura Servicio integral de pintura con amplia experiencia en viviendas u oficinas. Obras completas, interiores, exteriores, revestimientos decorativos, trabajos en altura.
-
                 Terminaciones Cielo raso, pisos y recubrimientos, cubierta, fachadas en general.</p>
             </div>
           </div>
@@ -144,14 +140,19 @@ const App = () => {
           </div>
           <div className="custom-card">
             <div className="custom-card-content">
-              <h3>Servicio de Diseño de Interiores</h3>
-              <p>Ofrecemos servicios de diseño de interiores que transforman los espacios en entornos funcionales, estéticos y armoniosos. Nuestro equipo de diseñadores trabaja estrechamente con los clientes para comprender sus necesidades y preferencias, y luego crea diseños personalizados que reflejan su estilo y personalidad.</p>
+              <h3>Diseño y renovacion de Espacios</h3>
+              <p>Ofrecemos servicios de diseño de interiores que transforman los espacios en entornos funcionales, estéticos y armoniosos. Nuestro equipo de diseñadores trabaja estrechamente con los clientes para comprender sus necesidades y preferencias y crear diseños personalizados que reflejen su estilo y personalidad.</p>
             </div>
           </div>
 
         </div>
 
-        <ContactSection /> {/* Agrega la sección de contacto aquí */}
+        {/* Nueva sección de contacto */}
+        <ContactSection />
+
+        {/* Nueva sección de footer */}
+
+        <Footer />
 
         {/* Botón de WhatsApp */}
         <a
