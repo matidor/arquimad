@@ -25,7 +25,7 @@ const App = () => {
         <h2 className="subtitle">Si estás buscando una empresa de construcción y arquitectura confiable y profesional.  <br /> Contáctanos hoy mismo para obtener más información sobre nuestros servicios.<br /> Estaremos encantados de ayudarte a hacer realidad tu proyecto de construcción o remodelación.</h2>
         <button className="contact-button">Contáctanos <FaArrowRight /></button>
         <div className="social-icons">
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://instagram.com/madarquitectura.ok?igshid=NGExMmI2YTkyZg==" target="_blank" rel="noopener noreferrer">
             <span className="social-icon"><FaInstagram /></span>
           </a>
           <a href="https://www.pinterest.com" target="_blank" rel="noopener noreferrer">
@@ -49,9 +49,7 @@ const App = () => {
             Si estás interesado en trabajar con nosotros, no dudes en ponerte en contacto.<br /> Estaremos encantados de discutir tus proyectos y ofrecerte una solución personalizada y asequible.<br /> ¡Contáctanos ahora y comencemos a trabajar en tu proyecto!
           </p>
         </div>
-        <div className="bottom-text">
-          <p>"Nos gusta definirnos como estudio de arquitectura creativo, <br />enfocándonos en la innovación en el diseño y la arquitectura, <br />mediante soluciones resolutivas y alcanzables."</p>
-        </div>
+        
       </div>
       <hr className="separator-line" />
 
@@ -85,6 +83,10 @@ const App = () => {
               <p>De obras civiles y privadas, con un sistema integral de soluciones, abarcando todos los servicios necesarios para la materialización, puesta en marcha y mantenimiento de obra</p>
             </div>
           </div>
+        </div>
+
+        <div className="bottom-text-services">
+          <p>""Nos gusta definirnos como estudio de arquitectura creativo, <br />enfocándonos en la innovación en el diseño y la arquitectura, <br />mediante soluciones resolutivas y alcanzables.""</p>
         </div>
 
         <div className="custom-section custom-section3">
